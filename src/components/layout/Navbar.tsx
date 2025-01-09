@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Dialog } from '@headlessui/react';
 import { FaBars, FaTimes, FaWhatsapp } from 'react-icons/fa';
-import { motion, AnimatePresence } from 'framer-motion';
 
 const navigation = [
   { name: 'Inicio', href: '/' },
@@ -112,7 +111,7 @@ export default function Navbar() {
               </div>
               <div className="py-6">
                 <a
-                  href="https://wa.me/5493764175386"
+                  href="https://wa.me/TUNUMERO"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700"

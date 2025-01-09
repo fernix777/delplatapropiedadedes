@@ -6,11 +6,7 @@ import CountUp from 'react-countup';
 import PropertyCard from '@/components/ui/PropertyCard';
 import { Property } from '@/types/property';
 import { 
-  HomeIcon, 
   UserGroupIcon, 
-  ChartBarIcon, 
-  PhoneIcon,
-  CheckCircleIcon,
   BuildingOfficeIcon,
   ClockIcon,
   CurrencyDollarIcon
@@ -61,24 +57,24 @@ const stats = [
 const testimonials = [
   {
     id: 1,
-    content: "Excelente atención y profesionalismo. Vendieron mi propiedad en tiempo récord.",
-    author: "María González",
-    role: "Vendedor",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop"
+    content: 'Excelente atención y profesionalismo. Vendieron mi propiedad en tiempo récord.',
+    author: 'María González',
+    role: 'Vendedor',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop'
   },
   {
     id: 2,
-    content: "Encontraron exactamente lo que buscábamos. El proceso fue muy simple y transparente.",
-    author: "Juan Pérez",
-    role: "Comprador",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop"
+    content: 'Encontraron exactamente lo que buscábamos. El proceso fue muy simple y transparente.',
+    author: 'Juan Pérez',
+    role: 'Comprador',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop'
   },
   {
     id: 3,
-    content: "Su conocimiento del mercado inmobiliario es impresionante. Totalmente recomendados.",
-    author: "Ana Silva",
-    role: "Inversor",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop"
+    content: 'Su conocimiento del mercado inmobiliario es impresionante. Totalmente recomendados.',
+    author: 'Ana Silva',
+    role: 'Inversor',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop'
   },
 ];
 
@@ -233,7 +229,7 @@ export default function Home() {
                     <div className="text-gray-500">{testimonial.role}</div>
                   </div>
                 </div>
-                <p className="text-gray-600 italic">"{testimonial.content}"</p>
+                <p className="text-gray-600 italic">&ldquo;{testimonial.content}&rdquo;</p>
               </div>
             ))}
           </div>
